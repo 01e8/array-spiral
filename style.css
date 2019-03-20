@@ -1,0 +1,29 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial;
+}
+.screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.array_frame {
+
+}
+.array {
+  display: flex;
+  flex-flow: wrap;
+}
+.array_element {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  transition: all 0.2s;
+  border: 1px solid white;
+}
